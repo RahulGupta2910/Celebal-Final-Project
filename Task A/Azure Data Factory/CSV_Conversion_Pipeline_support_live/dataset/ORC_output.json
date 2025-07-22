@@ -1,0 +1,21 @@
+{
+    "name": "ORC_output",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLSGen2",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Orc",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "customers.orc",
+                "folderPath": "orc",
+                "fileSystem": "converted"
+            },
+            "enablePhysicalSchema": true
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

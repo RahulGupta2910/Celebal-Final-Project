@@ -1,0 +1,23 @@
+{
+    "now": "2025-07-14T12:22:25.124Z",
+    "perfNow": 7304552.5,
+    "diagnosticCorrelation": "627b204a-5bd0-4a59-842c-05727424a9e7",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.070225.16",
+        "environmentType": 3,
+        "resourceName": "customerdata-adf-final",
+        "resourceRegion": "centralindia",
+        "resourceGroup": "customerdata-rg-final",
+        "subscriptionId": "4b697afd-e4c5-4b02-a867-3c947bb49a87",
+        "sessionId": "azOiIF+BkLDi/3YQjfKMmz",
+        "operationId": "",
+        "gitType": "live",
+        "loggingKey": "49792ad7-49ef-4f4c-8d87-ec55fbaf41fc"
+    },
+    "additionalInfo": {
+        "selectedResource": "CSV_Conversion_Pipeline",
+        "selectedResourceType": "pipeline"
+    }
+}
