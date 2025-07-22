@@ -87,10 +87,10 @@ dbutils.fs.mount(
 ```
 ## Technologies Used
 
--Azure Data Lake Storage Gen2
--Azure Data Factory
--Azure Databricks
--Apache Spark (SQL + PySpark)
--Delta Lake
--Avro, Parquet, ORC, JSON, XML, XLSX, TXT, CSV, TSV
+- Azure Data Lake Storage Gen2
+- Azure Data Factory
+- Azure Databricks
+- Apache Spark (SQL + PySpark)
+- Delta Lake
+- Avro, Parquet, ORC, JSON, XML, XLSX, TXT, CSV, TSV
 
