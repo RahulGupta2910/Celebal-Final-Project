@@ -36,11 +36,10 @@ This project demonstrates how to:
 
 ## Azure Resources
 
-- **Resource Group:** `customerdata-rg-final`
+- **Resource Group:** `rg-databricks-python`
 - **Storage Account:** ADLS Gen2 (Hierarchical Namespace Enabled)
 - **Containers:**
-  - `raw-data`: for original `customers.csv`
-  - `converted`: for format-converted files in AVRO, PARQUET, ORC, etc.
+  - `customerdata`: for original `customers.csv`
 
 ---
 
