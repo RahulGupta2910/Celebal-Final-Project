@@ -1,0 +1,21 @@
+{
+    "name": "Json_output",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLSGen2",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "customers.json",
+                "folderPath": "json",
+                "fileSystem": "converted"
+            }
+        },
+        "schema": {}
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Tab_Separated",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLSGen2",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "customers.tsv",
+                "folderPath": "tsv",
+                "fileSystem": "converted"
+            },
+            "columnDelimiter": "\t",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}

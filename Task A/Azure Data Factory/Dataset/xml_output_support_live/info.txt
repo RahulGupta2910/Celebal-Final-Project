@@ -1,0 +1,6 @@
+selected resource name:		xml_output
+selected resource type:		dataset
+factory name:			customerdata-adf-final
+factory location:		centralindia
+subscription id:		4b697afd-e4c5-4b02-a867-3c947bb49a87
+time of download (UTC):		Wed, 16 Jul 2025 08:21:27 GMT

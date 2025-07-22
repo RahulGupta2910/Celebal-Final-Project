@@ -1,0 +1,21 @@
+{
+    "name": "Avro_output",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLSGen2",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Avro",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "customers.avro",
+                "folderPath": "avro",
+                "fileSystem": "converted"
+            }
+        },
+        "schema": {}
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

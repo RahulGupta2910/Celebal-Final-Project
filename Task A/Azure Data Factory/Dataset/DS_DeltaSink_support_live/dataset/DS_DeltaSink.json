@@ -1,0 +1,19 @@
+{
+    "name": "DS_DeltaSink",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLSGen2",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Binary",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "customers.delta",
+                "folderPath": "delta",
+                "fileSystem": "converted"
+            }
+        }
+    }
+}

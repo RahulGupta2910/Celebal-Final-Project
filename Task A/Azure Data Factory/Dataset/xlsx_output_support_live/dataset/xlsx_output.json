@@ -1,0 +1,21 @@
+{
+    "name": "xlsx_output",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLSGen2",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Excel",
+        "typeProperties": {
+            "sheetName": "new_sheet",
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "customers.xlsx",
+                "folderPath": "xlsx",
+                "fileSystem": "converted"
+            }
+        },
+        "schema": []
+    }
+}
