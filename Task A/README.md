@@ -60,8 +60,6 @@ This project demonstrates how to:
   - `Avro → /converted/avro/`
   - `ORC → /converted/orc/`
 
-> Delta conversion was not handled in ADF, and was instead done in Databricks.
-
 ---
 
 ## Azure Databricks
